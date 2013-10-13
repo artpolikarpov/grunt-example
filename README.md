@@ -1,9 +1,12 @@
-# Простой пример конфигурации Гранта для склейки стилей и скриптов   в абстрактном сайте
+# Простой пример конфигурации Гранта для склейки стилей и скриптов в абстрактном сайте
+
+**Инструкция для новичков!**
+
 Исходники стилей из папки `styles/` компилируются в файл `www/css/all.css`. Аналогично скрипты — `scripts/` в `www/js/all.js`.
 
 ## Установка
 Скачайте и разархивируйте проект:
-> (https://github.com/artpolikarpov/grunt-example/archive/master.zip)
+> **https://github.com/artpolikarpov/grunt-example/archive/master.zip**
 
 Установите <a href="http://nodejs.org/">Node.js</a>.
 
