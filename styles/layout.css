@@ -1,0 +1,35 @@
+/* Лейаут */
+* {
+  /* Автопрефиксер расставит браузерные префиксы за нас */
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body > .layout {
+  min-height: 100%;
+  height: auto;
+  min-width: 512px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px 20px 100px 20px;
+  position: relative;
+
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, .5);
+
+  /* Здесь тоже будет куча префиксов */
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+body > .layout > .footer {
+  position: absolute;
+  height: 100px;
+  padding: 20px 20px 0;
+  left: 0;
+  bottom: 0;
+}

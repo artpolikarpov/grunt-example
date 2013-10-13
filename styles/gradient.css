@@ -1,0 +1,20 @@
+/* Градиенты */
+.gradient {
+  background-repeat: repeat-x;
+}
+
+.gradient-yellow {
+  /* Автопрефиксер расставит браузерные префиксы за нас */
+  background-image: linear-gradient(to bottom right, #ffe, #ffa);
+  background-color: #ffc;
+}
+
+.gradient-green {
+  background-image: linear-gradient(to bottom right, #efe, #afa);
+  background-color: #cfc;
+}
+
+.gradient-red {
+  background-image: linear-gradient(to bottom right, #fee, #faa);
+  background-color: #fcc;
+}
